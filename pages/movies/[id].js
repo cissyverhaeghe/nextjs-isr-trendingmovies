@@ -29,7 +29,7 @@ export async function getStaticPaths() {
 
   return {
     paths: movies.map((movie) => ({ params: { id: movie.id.toString() } })),
-    fallback: "false",
+    fallback: false,
   };
 }
 
