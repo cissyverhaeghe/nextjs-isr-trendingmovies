@@ -27,7 +27,7 @@ export const getStaticProps = async () => {
   const {
     data: { results: movies },
   } = await axios(
-    "https://api.themoviedb.org/3/trending/all/day?api_key=5a3845cdaac9976a856e9da16d7bc063&language=en"
+    "https://api.themoviedb.org/3/movie/popular?api_key=5a3845cdaac9976a856e9da16d7bc063&language=en-US&page=1"
   );
 
   return {
