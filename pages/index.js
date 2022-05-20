@@ -23,7 +23,7 @@ const Index = ({ movies }) => {
   );
 };
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   const {
     data: { results: movies },
   } = await axios(
@@ -34,6 +34,7 @@ export const getServerSideProps = async () => {
     props: {
       movies,
     },
+    revalidate: 60,
   };
 };
 

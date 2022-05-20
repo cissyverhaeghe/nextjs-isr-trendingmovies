@@ -26,6 +26,8 @@ section {
         p{
             color: white;
             margin: 0 auto;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
         }
         img {
             display: block;
@@ -36,3 +38,23 @@ section {
     }
 }
 
+.detail {
+    width: 80%;
+    background-color: rgba(10, 10, 10, 0.697);
+    margin: 0 auto;
+    padding: 20px;
+    p {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    button {
+        cursor: pointer;
+    }
+}
