@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://mcdn.wallpapersafari.com/medium/97/16/GVl5N2.jpg") ;
+}
+
+h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    article{
+        background-color: rgba(10, 10, 10, 0.697);
+        flex: 1 1 200px;
+        cursor: pointer;
+        a {
+            display: block;
+        }
+
+    
+        p{
+            color: white;
+            margin: 0 auto;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            aspect-ratio: 7/5;
+            object-fit: cover;
+        }
+    }
+}
+
