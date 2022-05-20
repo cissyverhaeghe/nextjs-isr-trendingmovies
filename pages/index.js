@@ -8,7 +8,7 @@ const Index = ({ movies }) => {
       {movies && (
         <section>
           {movies.map(({ id, poster_path, title }) => (
-            <Link key={id} href={`movies/${id}`}>
+            <Link key={id} href={`/${id}`}>
               <article>
                 <a>
                   <img src={`https://image.tmdb.org/t/p/w200/${poster_path}`} />
